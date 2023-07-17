@@ -7,9 +7,10 @@
     <link rel="shortcut icon" href="./airplane_2200326.png" type="image/pngs">
     <link rel="stylesheet" href="./style.css">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header data-aos="fade-down" data-aos-duration="1000" data-aos-easing="ease-in-sine">
         <div class="logo__title">
             <h1>TripBliss.</h1>
         </div>
@@ -27,15 +28,16 @@
     </header>
     <div class="wrapper">
         <main>
+            <!-- HERO SECTION -->
             <div class="hero__section">
                 <div class="left__col">
                     <div class="img__bx">
-                        <img class="fImage" src="./assets/header-1.jpg" alt="#">
-                        <img class="sImage" src="./assets/header-2.jpg" alt="#">
+                        <img data-aos="fade-right" data-aos-duration="700" data-aos-easing="ease-in-quart" class="fImage" src="./assets/header-1.jpg" alt="#">
+                        <img data-aos="fade-right" data-aos-duration=".700" data-aos-easing="ease-in-quart" data-aos-delay="600" class="sImage" src="./assets/header-2.jpg" alt="#">
                     </div>
                 </div>
                 <div class="right__col">
-                    <div class="text__content">
+                    <div class="text__content" data-aos="fade-right" data-aos-duration="700" data-aos-delay="800"="ease-in-quart">
                         <h3>Book Now</h3>
                         <h1>The Smiling Agent for Travel</h1>
                         <p>Make your travel more enjoyable with us. We are the best travel agency and we are providing the best travel services for our clients.</p>
@@ -51,5 +53,91 @@
             </div>
         </main>
     </div>
+    <section class="destinations">
+        <div class="destination__text">
+            <h1>Our Top Destinations</h1>
+            <p>Explore your suitable and dream places around the world. Here you can find your right destination</p>
+        </div>
+        <div class="image__gallery">
+            <div class="card card1">
+                <div class="card__text">
+                    <h2>Destination 1</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, dignissimos.</p>
+                </div>
+            </div>
+            <div class="card card2">
+                <div class="card__text">
+                    <h2>Destination 2</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, dignissimos.</p>
+                </div>
+            </div>
+            <div class="card card3">
+                <div class="card__text">
+                    <h2>Destination 3</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, dignissimos.</p>
+                </div>
+            </div>
+            <div class="card card4">
+                <div class="card__text">
+                    <h2>Destination 4</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, dignissimos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing">
+        <div class="pricing__descriptions">
+            <h1>Best trip package</h1>
+            <p>Explore your suitable and dream places around the world. Here you can find your right destination</p>
+        </div>
+        <div class="price__cards">
+            <div class="price__card1">
+                <img src="./assets/gallery-1.jpg" alt="">
+                <div class="price__info">
+                    <h2>Wasserwek Frelberg, Germany</h2>
+                    <p>4.7 Rating</p>
+                    <div class="price__flex">
+                        <h3>From $300</h3>
+                        <a href="#">Book Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="price__card2">
+                <img src="./assets/gallery-1.jpg" alt="">
+                <div class="price__info">
+                    <h2>Wasserwek Frelberg, Germany</h2>
+                    <p>4.7 Rating</p>
+                    <div class="price__flex">
+                        <h3>From $300</h3>
+                        <a href="#">Book Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="price__card3">
+                <img src="./assets/gallery-1.jpg" alt="">
+                <div class="price__info">
+                    <h2>Wasserwek Frelberg, Germany</h2>
+                    <p>4.7 Rating</p>
+                    <div class="price__flex">
+                        <h3>From $300</h3>
+                        <a href="#">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- DESTINATION ANIMATION -->
+    <!-- data-aos="fade-up" data-aos-duration="900" data-aos-delay="300" data-aos-easing="ease" data-aos-mirror="false" -->
+    <!-- IMAGE GALLERY ANIMATION -->
+    <!-- data-aos="fade-up" data-aos-duration="900" data-aos-delay="600" data-aos-easing="ease" data-aos-once="true" -->
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./Js/app.js"></script>
 </body>
 </html>
