@@ -329,3 +329,25 @@ img{
     font-size: 15px;
     color: var(--primary-color);
 }
+
+.price__cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* margin: 20px; */
+}
+
+.card__grid{
+    background-color: #fff;
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.price__card1 img{
+    width: 250px;
+}
+
+.price__card1{
+    background: url(./assets/gallery-1.jpg);
+    background-size: cover;
+}
