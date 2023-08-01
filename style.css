@@ -445,3 +445,26 @@ img{
     background-color: var(--secondary-color);
     color: var(--primary-color);
 }
+
+/* GALLERY SECTION STYLES */
+.gallery__section{
+    background-color: steelblue;
+    margin-top: 6em;
+    max-height: 650px;
+    display: flex;
+    gap: 20px;
+    padding: 3em;
+}
+
+.gallery__container{
+    width: 50%;
+    background-color: #FFD700;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+.gallery__text{
+    background-color: #1A237E;
+    flex: 1;
+}
+
